@@ -1,10 +1,10 @@
 plugins {
     id 'java'
-    id 'org.jetbrains.intellij' version '0.4.7'
+    id 'org.jetbrains.intellij' version '0.4.8'
 }
 
 group 'com.jingtuo.plugin'
-version '1.0-SNAPSHOT'
+version '0.0.1'
 
 sourceCompatibility = 1.8
 
@@ -14,11 +14,15 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile "com.squareup.okhttp3:okhttp:3.14.1"
+    compile "com.squareup.retrofit2:retrofit:2.5.0"
+    compile "com.squareup.retrofit2:converter-gson:2.5.0"
+    compile "org.projectlombok:lombok:1.18.6"
 }
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    pluginName 'Flutter Yaml'
+    pluginName 'FlutterYaml'
     plugins ['coverage']
     version '2018.2.2'
 //    localPath 'D:/Download/ideaIC-2018.2.2'//version and localPath should not be specified at the same time.
@@ -27,15 +31,15 @@ intellij {
 //    sandboxDirectory '${project.buildDir}/idea-sandbox'//缺省值:'${project.buildDir}/idea-sandbox'
 }
 patchPluginXml {
-    pluginDescription """插件的目的是在Android Studio中直接搜索dart packages，方便快速编辑Flutter Yaml"""
+    pluginDescription """The purpose of the plug-in is to search dart packages directly in Android Studio and quick editing of Flutter Yaml."""
     changeNotes """
       最初版本0.0.1<br>
       <em>输入packageName时,自动从https://pub.dartlang.org/flutter搜索</em>"""
 }
 
 publishPlugin {
-//    username intellijPublishUsername
-//    password intellijPublishPassword
-    token 'perm:amluZ3R1bw==.UGx1Z2luIFRva2Vu.5zO2xsOut8jQEIxrAnJAPgXkNgfIac'
-    channels 'beta'
+    token 'perm:amluZ3R1bw==.UGx1Z2lucyBUb2tlbg==.yJxgtJOJQs2KuY3rLawWDwzURqTvdw'
+//    channels 'beta'
+//    host 'https://plugins.jetbrains.com'
+//    distributionFile 'build/distributions/FlutterYaml-0.0.1.zip'
 }

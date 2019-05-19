@@ -1,0 +1,187 @@
+{
+  "name": "io",
+  "latest": {
+    "archive_url": "https://pub.dartlang.org/packages/io/versions/0.3.3.tar.gz",
+    "pubspec": {
+      "version": "0.3.3",
+      "name": "io",
+      "dependencies": {
+        "charcode": "^1.0.0",
+        "string_scanner": ">=0.1.5 <2.0.0",
+        "path": "^1.5.1",
+        "meta": "^1.0.2"
+      },
+      "author": "Dart Team <misc@dartlang.org>",
+      "description": "Utilities for the Dart VM Runtime.\n",
+      "homepage": "https://github.com/dart-lang/io",
+      "environment": {
+        "sdk": ">=2.0.0-dev.54 <3.0.0"
+      },
+      "dev_dependencies": {
+        "dart_style": "^1.0.7",
+        "test": "^1.0.0",
+        "test_descriptor": "^1.0.0"
+      }
+    },
+    "version": "0.3.3"
+  },
+  "versions": [
+    {
+      "archive_url": "https://pub.dartlang.org/packages/io/versions/0.1.0-git.tar.gz",
+      "pubspec": {
+        "homepage": "http://github.com/jirkadanek/io",
+        "version": "0.1.0-git",
+        "name": "io",
+        "documentation": "http://jirkadanek.github.com/io/***FIXME:***",
+        "author": "Jiří Daněk <dnk@mail.muni.cz>",
+        "description": "A (mostly incomplete) attempt to provide platform agnostic declarations for abstract classes in the dart:io package"
+      },
+      "version": "0.1.0-git"
+    },
+    {
+      "archive_url": "https://pub.dartlang.org/packages/io/versions/0.2.0.tar.gz",
+      "pubspec": {
+        "version": "0.2.0",
+        "name": "io",
+        "dependencies": {
+          "meta": "^1.0.2"
+        },
+        "author": "Dart Team <misc@dartlang.org>",
+        "description": "Utilities for the Dart VM Runtime.\n",
+        "homepage": "https://github.com/dart-lang/io",
+        "environment": {
+          "sdk": ">=1.22.0 <2.0.0"
+        },
+        "dev_dependencies": {
+          "test": "^0.12.0",
+          "path": "^1.0.0"
+        }
+      },
+      "version": "0.2.0"
+    },
+    {
+      "archive_url": "https://pub.dartlang.org/packages/io/versions/0.3.0.tar.gz",
+      "pubspec": {
+        "version": "0.3.0",
+        "name": "io",
+        "dependencies": {
+          "charcode": "^1.0.0",
+          "string_scanner": ">=0.1.5 <2.0.0",
+          "meta": "^1.0.2"
+        },
+        "author": "Dart Team <misc@dartlang.org>",
+        "description": "Utilities for the Dart VM Runtime.\n",
+        "homepage": "https://github.com/dart-lang/io",
+        "environment": {
+          "sdk": ">=1.22.0 <2.0.0"
+        },
+        "dev_dependencies": {
+          "dart_style": "^1.0.7",
+          "test": "^0.12.0",
+          "path": "^1.0.0"
+        }
+      },
+      "version": "0.3.0"
+    },
+    {
+      "archive_url": "https://pub.dartlang.org/packages/io/versions/0.3.1.tar.gz",
+      "pubspec": {
+        "version": "0.3.1",
+        "name": "io",
+        "dependencies": {
+          "charcode": "^1.0.0",
+          "string_scanner": ">=0.1.5 <2.0.0",
+          "path": "^1.5.1",
+          "meta": "^1.0.2"
+        },
+        "author": "Dart Team <misc@dartlang.org>",
+        "description": "Utilities for the Dart VM Runtime.\n",
+        "homepage": "https://github.com/dart-lang/io",
+        "environment": {
+          "sdk": ">=1.22.0 <2.0.0"
+        },
+        "dev_dependencies": {
+          "dart_style": "^1.0.7",
+          "test": "^0.12.0",
+          "test_descriptor": "^1.0.0"
+        }
+      },
+      "version": "0.3.1"
+    },
+    {
+      "archive_url": "https://pub.dartlang.org/packages/io/versions/0.3.2.tar.gz",
+      "pubspec": {
+        "version": "0.3.2",
+        "name": "io",
+        "dependencies": {
+          "charcode": "^1.0.0",
+          "string_scanner": ">=0.1.5 <2.0.0",
+          "path": "^1.5.1",
+          "meta": "^1.0.2"
+        },
+        "author": "Dart Team <misc@dartlang.org>",
+        "description": "Utilities for the Dart VM Runtime.\n",
+        "homepage": "https://github.com/dart-lang/io",
+        "environment": {
+          "sdk": ">=1.22.0 <2.0.0"
+        },
+        "dev_dependencies": {
+          "dart_style": "^1.0.7",
+          "test": "^0.12.0",
+          "test_descriptor": "^1.0.0"
+        }
+      },
+      "version": "0.3.2"
+    },
+    {
+      "archive_url": "https://pub.dartlang.org/packages/io/versions/0.3.2%2B1.tar.gz",
+      "pubspec": {
+        "version": "0.3.2+1",
+        "name": "io",
+        "dependencies": {
+          "charcode": "^1.0.0",
+          "string_scanner": ">=0.1.5 <2.0.0",
+          "path": "^1.5.1",
+          "meta": "^1.0.2"
+        },
+        "author": "Dart Team <misc@dartlang.org>",
+        "description": "Utilities for the Dart VM Runtime.\n",
+        "homepage": "https://github.com/dart-lang/io",
+        "environment": {
+          "sdk": ">=1.22.0 <2.0.0"
+        },
+        "dev_dependencies": {
+          "dart_style": "^1.0.7",
+          "test": "^0.12.0",
+          "test_descriptor": "^1.0.0"
+        }
+      },
+      "version": "0.3.2+1"
+    },
+    {
+      "archive_url": "https://pub.dartlang.org/packages/io/versions/0.3.3.tar.gz",
+      "pubspec": {
+        "version": "0.3.3",
+        "name": "io",
+        "dependencies": {
+          "charcode": "^1.0.0",
+          "string_scanner": ">=0.1.5 <2.0.0",
+          "path": "^1.5.1",
+          "meta": "^1.0.2"
+        },
+        "author": "Dart Team <misc@dartlang.org>",
+        "description": "Utilities for the Dart VM Runtime.\n",
+        "homepage": "https://github.com/dart-lang/io",
+        "environment": {
+          "sdk": ">=2.0.0-dev.54 <3.0.0"
+        },
+        "dev_dependencies": {
+          "dart_style": "^1.0.7",
+          "test": "^1.0.0",
+          "test_descriptor": "^1.0.0"
+        }
+      },
+      "version": "0.3.3"
+    }
+  ]
+}

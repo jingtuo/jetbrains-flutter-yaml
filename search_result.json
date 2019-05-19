@@ -1,0 +1,35 @@
+{
+  "packages": [
+    {
+      "package": "json_serializable"
+    },
+    {
+      "package": "json_annotation"
+    },
+    {
+      "package": "json_rpc_2"
+    },
+    {
+      "package": "dart:html"
+    },
+    {
+      "package": "dart:convert"
+    },
+    {
+      "package": "dart:io"
+    },
+    {
+      "package": "json_schema"
+    },
+    {
+      "package": "built_value"
+    },
+    {
+      "package": "dart_json_mapper"
+    },
+    {
+      "package": "json_parser"
+    }
+  ],
+  "next": "https://pub.dartlang.org/api/search?q=json&page=2"
+}
